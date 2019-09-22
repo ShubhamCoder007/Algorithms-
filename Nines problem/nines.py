@@ -53,6 +53,10 @@ def nine_util(n):
 
     if len(l) == 0:
         return -1
+    
+    if -1 in l:
+        return -1
+    print(l)
 
     return len(l)
 
